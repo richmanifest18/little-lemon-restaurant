@@ -4,7 +4,7 @@ import smallLogo from '../images/small_logo.png'
 
 function Footer() {
     return (
-        <div>
+        <>
             <section className="footer container">
                 <div className="footer__container">
                     <div className="footer__header-wrapper">
@@ -40,11 +40,11 @@ function Footer() {
                             <h4 className="footer__title">Social Media Links</h4>
                         </div>
                         <ul className="footer__ul">
-                            <li><a href={'https://www.facebook.com'}>Facebook</a></li>
-                            <li><a href={'https://www.instagram.com'}>Instagram</a></li>
-                            <li><a href={'https://www.youtube.com'}>YouTube</a></li>
-                            <li><a href={'https://www.twitter.com'}>X</a></li>
-                            <li><a href={'https://www.yelp.com'}>Yelp</a></li>
+                            <li><a href={'https://www.facebook.com'} aria-label="On Click">Facebook</a></li>
+                            <li><a href={'https://www.instagram.com'} aria-label="On Click">Instagram</a></li>
+                            <li><a href={'https://www.youtube.com'} aria-label="On Click">YouTube</a></li>
+                            <li><a href={'https://www.twitter.com'} aria-label="On Click">X</a></li>
+                            <li><a href={'https://www.yelp.com'} aria-label="On Click">Yelp</a></li>
                         </ul>
                     </div>
                 </div>
@@ -53,7 +53,7 @@ function Footer() {
                     <p className="footer__copyright">Copyright ©️ Little Lemon 2024</p>
                 </div>
         </section>
-        </div>
+        </>
     )
 }
 

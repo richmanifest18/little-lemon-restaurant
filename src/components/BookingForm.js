@@ -114,7 +114,7 @@ const BookingForm = ({ onSubmit, availableTimes, setAvailableTimes, updateTimes:
                 <input id="email" type="email" value={email} onChange={(e) => setEmail(e.target.value)} required data-testid="input-email"/>
             </label>
             <br />
-            <button className='btn2' type="submit" data-testid="btn-book-now">Book Now</button>
+            <button className='btn2' type="submit" data-testid="btn-book-now" aria-label="On Click">Book Now</button>
         </form>
         </>
     );

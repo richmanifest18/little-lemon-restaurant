@@ -15,7 +15,7 @@ const Confirmation = ({ bookingInfo }) => {
           <p>Number of guests: {bookingInfo.guests}</p>
           <p>E-mail: {bookingInfo.email}</p>
         <Link to="/">
-          <button className='confirmation__btn btn2'>Home</button>
+          <button className='confirmation__btn btn2' aria-label="On Click">Home</button>
         </Link>
         </div>
       </div>

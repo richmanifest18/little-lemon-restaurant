@@ -8,11 +8,11 @@ import AboutUs from './components/AboutUs';
 function App() {
   return (
     <div>
-      <header className="header container">
+      <header className="header container" role="banner">
             <div className="header__logo">
-                <Link to="/"><img src={logo} alt="logo"/></Link>
+                <Link to="/" aria-label="Home"><img src={logo} alt="logo"/></Link>
             </div>
-            <nav className="nav__bar">
+            <nav className="nav__bar" role="navigation">
                 <ul className="header__menu">
                     <li>
                         <Link to="/" className="header__link">Home</Link>
