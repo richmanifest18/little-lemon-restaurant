@@ -23,19 +23,9 @@ const BookingForm = ({ onSubmit, availableTimes, setAvailableTimes, updateTimes:
 
   // Effect to update available times when the date changes
   useEffect(() => {
-    // const updatedTimes = getUpdatedTimes(date);
-    // setAvailableTimes('');
-    // setAvailableTimes(updatedTimes);
   }, [date, getUpdatedTimes, setAvailableTimes]); 
 
-  // //Handler for date input change
-  // const handleDateChange = (e) => {
-  //   const selectedTime = e.target.value;
-  //   setDate(selectedTime);
-  //   // Dispatch state change when the date is changed
-  //   const updatedTimes = getUpdatedTimes(selectedTime);
-  //   setAvailableTimes(updatedTimes);
-  // };
+
 
   const handleSubmit = (e) => {
     e.preventDefault();

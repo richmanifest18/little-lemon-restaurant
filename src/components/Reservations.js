@@ -33,11 +33,6 @@ function Reservations() {
   const [availableTimes, dispatch] = useReducer(reducer, [], initializeTimes);
 
 
-  // Use the useReducer hook to manage the state of availableTimes
-  // const [availableTimes, dispatch] = useReducer(reducer, [], initializeTimes);
-
-
-
   // Function to update available times based on the selected date
   const handleUpdateTimes = (selectedDate) => {
     const updatedTimes = updateTimes(selectedDate);
